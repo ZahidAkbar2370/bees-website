@@ -1,0 +1,92 @@
+* {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.btn-warning {
+    background: #f1d600 !important;
+    color: black !important;
+    font-weight: 600;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    border-color: #f1d600;
+}
+
+.btn-spetition {
+    background: #fcdb00 !important;
+    color: black !important;
+    font-weight: 600;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    border-color: #fcdb00;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.textSection {
+    border: 2px solid #fcdb00;
+}
+
+.heading {
+    color: #fcdb00;
+    font-weight: bold;
+}
+
+.myfirstSectionImage {
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.myHeader {
+    background-color: #fcdb00;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 100px !important;
+}
+
+.myFooter {
+    background-color: #95948e;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.mySection1 {
+    padding-top: 30px !important;
+    padding-bottom: 10px !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+.myLabelStyle {
+    font-weight: 600;
+    color: black !important;
+}
+
+.myleftImageColumn {
+    padding-right: 25px !important;
+}
+
+@media only screen and (max-width: 720px) {
+    .myHeader {
+        padding-left: 35px !important;
+    }
+
+    .mySection1 {
+        padding-top: 30px !important;
+        padding-bottom: 10px !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .myleftImageColumn {
+        padding-right: 25px !important;
+        padding-left: 25px !important;
+    }
+
+    .myfirstSectionImage {
+        height: 200px;
+        background-size: contain;
+    }
+}
